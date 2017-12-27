@@ -151,7 +151,7 @@
 							href="javascript:void(0)">角色管理</a></li>
 						<li><a data-href="system-data.html" data-title="资源管理"
 							href="javascript:void(0)">资源管理</a></li>
-						<li><a data-href="system-data.html" data-title="部门管理"
+						<li><a data-href="dept/deptlist.jsp" data-title="部门管理"
 							href="javascript:void(0)">部门管理</a></li>
 						<li><a data-href="system-shielding.html" data-title="基础数据管理"
 							href="javascript:void(0)">基础数据管理</a></li>
