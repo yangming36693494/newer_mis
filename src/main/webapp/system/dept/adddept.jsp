@@ -35,8 +35,7 @@
 		前台管理 <span class="c-gray en">&gt;</span> 数据备案 <a
 			class="btn btn-success radius r"
 			style="line-height: 1.6em; margin-top: 3px"
-			href="javascript:location.replace(location.href);" title="刷新"><i
-			class="Hui-iconfont">&#xe68f;</i></a>
+			href="javascript:location.replace(location.href);" title="刷新"><i class="Hui-iconfont">&#xe68f;</i></a>
 	</nav>
 	<div class="page-container">
 		<div class="text-c">
@@ -119,10 +118,10 @@
 						style="float: left; text-align: left;">
 						<input type="text"
 							onfocus="WdatePicker({ maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}' })"
-							id="logmin" class="input-text Wdate" style="width: 115px;">
+							id="logmin" class="input-text Wdate"  style="width: 115px;">
 						- <input type="text"
 							onfocus="WdatePicker({ minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d' })"
-							id="logmax" class="input-text Wdate" style="width: 115px;">
+							id="logmax" class="input-text Wdate"  style="width: 115px;">
 					</div>
 					<label class="form-label col-xs-2 col-sm-1">联系电话:</label>
 					<div class="formControls col-xs-2 col-sm-3"
@@ -154,7 +153,7 @@
 						</select>
 					</div>
 				</div>
-				
+
 				<div class="row cl">
 					<div class="formControls col-xs-4 col-sm-4">
 						<button name="" id="" class="btn btn-success" type="submit">

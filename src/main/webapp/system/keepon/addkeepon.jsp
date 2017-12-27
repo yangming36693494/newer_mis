@@ -44,109 +44,97 @@
 			<form action="" method="post" class="form form-horizontal"
 				id="form-article-add">
 				<div class="row cl">
-					<label class="form-label col-xs-2 col-sm-1"><span
+					<label class="form-label col-xs-6 col-sm-1"><span
 						class="c-red"></span>学员姓名:</label>
-					<div class="formControls col-xs-2 col-sm-3">
+					<div class="formControls col-xs-6 col-sm-3">
 						<input type="text" class="input-text" value="" placeholder=""
 							id="" name="">
 					</div>
-					<label class="form-label col-xs-2 col-sm-1">信息来源:</label>
-					<div class="formControls col-xs-2 col-sm-3">
+					<label class="form-label col-xs-6 col-sm-1">信息来源:</label>
+					<div class="formControls col-xs-6 col-sm-3">
 						<input type="text" class="input-text" value="" placeholder=""
 							id="" name="">
 					</div>
-					<label class="form-label col-xs-2 col-sm-1">年龄:</label>
-					<div class="formControls col-xs-2 col-sm-3">
+					<label class="form-label col-xs-6 col-sm-1">年龄:</label>
+					<div class="formControls col-xs-6 col-sm-3">
 						<input type="text" class="input-text" value="" placeholder=""
 							id="" name="">
 					</div>
 				</div>
 				<div class="row cl">
-					<label class="form-label col-xs-2 col-sm-1">市场专员:</label>
-					<div class="formControls col-xs-2 col-sm-3">
+					<label class="form-label col-xs-6 col-sm-1">性别:</label>
+					<div class="formControls col-xs-6 col-sm-3">
+						<label> <input name="sex" type="radio" id="six_1"
+							value="1" checked> 男
+						</label> <label> <input type="radio" name="sex" value="0"
+							id="six_0"> 女
+						</label>
+					</div>
+					<label class="form-label col-xs-6 col-sm-1">关联人:</label>
+					<div class="formControls col-xs-6 col-sm-3">
+						<input type="text" class="input-text" value="" placeholder=""
+							id="" name="">
+					</div>
+					<label class="form-label col-xs-6 col-sm-1"><span
+						class="c-red"></span>关系:</label>
+					<div class="formControls col-xs-6 col-sm-3">
+						<input type="text" class="input-text" value=""
+							placeholder="如：父亲，兄长" id="" name="">
+					</div>
+				</div>
+				<div class="row cl">
+					<label class="form-label col-xs-6 col-sm-1">QQ:</label>
+					<div class="formControls col-xs-6 col-sm-3">
+						<input type="text" class="input-text" value=""
+							placeholder="填写正确的QQ号码" id="" name="">
+					</div>
+					<label class="form-label col-xs-6 col-sm-1">联系电话:</label>
+					<div class="formControls col-xs-6 col-sm-3">
+						<input type="text" class="input-text" value="" placeholder=""
+							id="" name="">
+					</div>
+					<label class="form-label col-xs-6 col-sm-1">所在区域:</label>
+					<div class="formControls col-xs-6 col-sm-3">
+						<input type="text" class="input-text" value="" placeholder=""
+							id="" name="">
+					</div>
+				</div>
+				<div class="row cl">
+					<label class="form-label col-xs-6 col-sm-1">预计上门时间:</label>
+					<div class="formControls col-xs-6 col-sm-3">
+					<input type="text"
+							onfocus="WdatePicker({ maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}' })"
+							id="logmin" class="input-text Wdate"  style="width: 115px;">
+					</div>
+					<label class="form-label col-xs-6 col-sm-1">学历:</label>
+					<div class="formControls col-xs-6 col-sm-3">
 						<select name="" class="select-box select">
-							<option value="0">五一校区</option>
-							<option value="1">河西小区</option>
+							<option value="0">初中</option>
+							<option value="1">高中</option>
+							<option value="2">大学</option>
 						</select>
 					</div>
-					<label class="form-label col-xs-2 col-sm-1">性别:</label>
-					<div class="formControls col-xs-2 col-sm-3">
+					<label class="form-label col-xs-6 col-sm-1">学历:</label>
+					<div class="formControls col-xs-6 col-sm-3">
 						<select name="" class="select-box select">
-							<option value="0">唐僧</option>
-							<option value="1">悟空</option>
-						</select>
-					</div>
-					<label class="form-label col-xs-2 col-sm-1"><span
-						class="c-red"></span>关联人:</label>
-					<div class="formControls col-xs-2 col-sm-3">
-						<select name="" class="select-box select">
-							<option value="0">未报名</option>
-							<option value="1">已报名</option>
-							<option value="2">已进班</option>
+							<option value="0">初中</option>
+							<option value="1">高中</option>
+							<option value="2">大学</option>
 						</select>
 					</div>
 				</div>
 
 				<div class="row cl">
-					<label class="form-label col-xs-2 col-sm-1">姓名备注:</label>
-					<div class="formControls col-xs-2 col-sm-3">
-						<select name="" class="select-box select">
-							<option value="0">未报名</option>
-							<option value="1">已报名</option>
-							<option value="2">已进班</option>
-						</select>
-					</div>
-					<label class="form-label col-xs-2 col-sm-1">关联人关系:</label>
-					<div class="formControls col-xs-2 col-sm-3">
-						<select name="" class="select-box select">
-							<option value="0">未报名</option>
-							<option value="1">已报名</option>
-							<option value="2">已进班</option>
-						</select>
-					</div>
-					<label class="form-label col-xs-2 col-sm-1">QQ:</label>
-					<div class="formControls col-xs-2 col-sm-3">
+					<label class="form-label col-xs-6 col-sm-1">咨询时间:</label>
+					<div class="formControls col-xs-6 col-sm-3">
 						<select name="" class="select-box select">
 							<option value="0">A</option>
 							<option value="1">B</option>
 							<option value="2">C</option>
 						</select>
 					</div>
-				</div>
-				<div class="row cl">
-					<label class="form-label col-xs-2 col-sm-1">咨询师:</label>
-					<div class="formControls col-xs-2 col-sm-3"
-						style="float: left; text-align: left;">
-						<input type="text"
-							onfocus="WdatePicker({ maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}' })"
-							id="logmin" class="input-text Wdate" style="width: 115px;">
-						- <input type="text"
-							onfocus="WdatePicker({ minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d' })"
-							id="logmax" class="input-text Wdate" style="width: 115px;">
-					</div>
-					<label class="form-label col-xs-2 col-sm-1">联系电话:</label>
-					<div class="formControls col-xs-2 col-sm-3"
-						style="float: left; text-align: left;">
-						<input type="text"
-							onfocus="WdatePicker({ maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}' })"
-							id="logmin" class="input-text Wdate" style="width: 115px;">
-						- <input type="text"
-							onfocus="WdatePicker({ minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d' })"
-							id="logmax" class="input-text Wdate" style="width: 115px;">
-					</div>
-				</div>
-
-				<div class="row cl">
-					<label class="form-label col-xs-2 col-sm-1">咨询时间:</label>
-					<div class="formControls col-xs-2 col-sm-3">
-						<select name="" class="select-box select">
-							<option value="0">A</option>
-							<option value="1">B</option>
-							<option value="2">C</option>
-						</select>
-					</div>
-					<label class="form-label col-xs-2 col-sm-1">所在区域:</label>
-					<div class="formControls col-xs-2 col-sm-3">
+					<label class="form-label col-xs-6 col-sm-1">所在区域:</label>
+					<div class="formControls col-xs-6 col-sm-3">
 						<select name="" class="select-box select">
 							<option value="0">张三</option>
 							<option value="1">李四</option>
@@ -154,7 +142,7 @@
 						</select>
 					</div>
 				</div>
-				
+
 				<div class="row cl">
 					<div class="formControls col-xs-4 col-sm-4">
 						<button name="" id="" class="btn btn-success" type="submit">
