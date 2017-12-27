@@ -103,9 +103,9 @@
 				</dt>
 				<dd>
 					<ul>
-						<li><a data-href="article-list.html" data-title="数据备案"
+						<li><a data-href="keepon/addkeepon.jsp" data-title="数据备案"
 							href="javascript:void(0)">数据备案</a></li>
-						<li><a data-href="article-list.html" data-title="备案查询"
+						<li><a data-href="keepon/keeponlist.jsp" data-title="备案查询"
 							href="javascript:void(0)">备案查询</a></li>
 					</ul>
 				</dd>
@@ -145,7 +145,7 @@
 				</dt>
 				<dd>
 					<ul>
-						<li><a data-href="system-base.html" data-title="用户管理"
+						<li><a data-href="user/userlist.jsp" data-title="用户管理"
 							href="javascript:void(0)">用户管理</a></li>
 						<li><a data-href="system-category.html" data-title="角色管理"
 							href="javascript:void(0)">角色管理</a></li>
